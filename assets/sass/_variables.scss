@@ -5,7 +5,7 @@
 // ========== Theme Color ========== //
 // Config here to change theme color
 // Default | Mint Green | Cobalt Blue | Hot Pink | Dark Violet
-$theme-color-config: 'Mint Green';
+$theme-color-config: 'Default';
 
 // Default theme color map
 $theme-color-map: (
@@ -32,10 +32,12 @@ $deputy-color: nth($theme-color-list, 2) !default;
 
 // ========== Color ========== //
 $black: #0a0a0a !default;
-$white: #fefefe !default;
+//$white: #fefefe !default;
+$white: #fdf7e3 !default;
 $light-gray: #e6e6e6 !default;
 $gray: #cacaca !default;
 $dark-gray: #8a8a8a !default;
+$brown: #fdf7e3 !default;
 
 
 // ========== Global ========== //
@@ -61,7 +63,8 @@ $global-font-family: 'Source Sans Pro', 'Helvetica Neue', Arial, sans-serif !def
 $global-serif-font-family: Athelas, STHeiti, Microsoft Yahei, serif !default;
 
 // Background color of the site.
-$global-background: $white !default;
+//$global-background: $white !default;
+$global-background: $brown !default;
 
 // Headings font size of the site.
 $global-headings: (
