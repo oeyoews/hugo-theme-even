@@ -27,23 +27,26 @@ body {
 
 ::selection {
   background: $theme-color;
-  color: #fff; 
+  color: #fff;
 }
 
-// ::-webkit-scrollbar {
-//   width: 8px;
-//   height: 6px; 
-// }
+//== scroll bar ==
+ ::-webkit-scrollbar {
+   width: 8px;
+   height: 6px;
+ }
 
-// ::-webkit-scrollbar-thumb {
-//   background: lighten($theme-color, 10%);
-//   border-radius: 5px;
-// }
+ ::-webkit-scrollbar-thumb {
+   background: lighten($theme-color, 10%);
+   border-radius: 5px;
+ }
 
-// ::-webkit-scrollbar-track {
-//   background: rgba(211, 211, 211, 0.4);
-//   border-radius: 5px;
-// }
+ ::-webkit-scrollbar-track {
+   background: rgba(211, 211, 211, 0.4);
+   border-radius: 5px;
+ }
+
+ // == end scroll bar
 
 img {
   max-width: 100%;

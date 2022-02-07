@@ -9,7 +9,9 @@ $theme-color-config: 'Default';
 
 // Default theme color map
 $theme-color-map: (
-  'Default': #c05b4d #f8f5ec,
+  //'Default': #c05b4d #f8f5ec,
+  'Default': #51afef #f8f5ec,
+  //'Default': #3e93d8 #f8f5ec,
   'Mint Green': #16982B #f5f5f5,
   'Cobalt Blue': #0047AB #f0f2f5,
   'Hot Pink': #FF69B4 #f8f5f5,
@@ -34,10 +36,11 @@ $deputy-color: nth($theme-color-list, 2) !default;
 $black: #0a0a0a !default;
 //$white: #fefefe !default;
 $white: #fdf7e3 !default;
+//$white: #f5f5ee !default;
 $light-gray: #e6e6e6 !default;
 $gray: #cacaca !default;
 $dark-gray: #8a8a8a !default;
-$brown: #fdf7e3 !default;
+//$brown: #fdf7e3 !default;
 
 
 // ========== Global ========== //
@@ -63,8 +66,8 @@ $global-font-family: 'Source Sans Pro', 'Helvetica Neue', Arial, sans-serif !def
 $global-serif-font-family: Athelas, STHeiti, Microsoft Yahei, serif !default;
 
 // Background color of the site.
-//$global-background: $white !default;
-$global-background: $brown !default;
+$global-background: $white !default;
+//$global-background: $brown !default;
 
 // Headings font size of the site.
 $global-headings: (
